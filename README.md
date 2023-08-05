@@ -1,4 +1,4 @@
-# Bloggerly!
+# BlogApp
 
 
 # 📗 Table of Contents
@@ -131,11 +131,17 @@ To deploy this project locally, you can run:
 
 ## 👥 Authors <a name="authors"></a>
 
-## 👥 Author: <a name="authors">Nshanji Hilary Ndzi</a>
+**👤 Nshanji Hilary Ndzi**
 
 - GitHub: [@dazehinn](https://github.com/dazehinn)
 - Twitter: [@HilarNdzi](https://twitter.com/hilaryndzi)
 - LinkedIn: [Linkedin](https://www.linkedin.com/in/nshanji-hilary-ndzi/)
+
+👤 **Federica Ulzurrun**
+
+- GitHub: [@federicaulzurrun](https://github.com/federicaulzurrun)
+- Twitter: [@ulzurrunfede](https://mobile.twitter.com/ulzurrunfede)
+- LinkedIn: [Federica Ulzurrun](https://www.linkedin.com/in/federicaulzurrun/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
