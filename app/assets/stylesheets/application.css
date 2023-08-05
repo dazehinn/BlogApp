@@ -1,15 +1,195 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+/* Global classes */
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flex {
+  display: flex;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1%;
+}
+
+.subtitle {
+  font-size: 1.5em;
+}
+
+.text {
+  font-size: 1.2em;
+  margin: 1%;
+}
+
+.counters {
+  align-items: center;
+  justify-content: end;
+}
+
+.notice,
+.alert {
+  color: #b31800;
+  font-size: 1em;
+  padding: 0.2%;
+}
+
+.shared-link {
+  color: #824805;
+  padding-top: 1%;
+}
+
+/* Application view (header) */
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  background-color: #f0f0f0;
+}
+
+#right-header {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+/* Buttons */
+.btn-container {
+  text-align: center;
+  background-color: #b31800;
+}
+
+.navbar-btn {
+  padding: 2px 10px;
+  font-size: 1em;
+}
+
+/* Users Index */
+.card-container {
+  width: 90%;
+  margin: 5%;
+}
+
+.card {
+  padding: 3%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.photo-container {
+  border: 1px solid black;
+  height: 5em;
+  width: 5em;
+}
+
+.user-img {
+  height: 5em;
+  width: 5em;
+}
+
+.user-information {
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 3%;
+  border: 1px solid black;
+  padding: 2%;
+}
+
+.user-information p {
+  align-self: flex-end;
+}
+
+/* User Show */
+.bio {
+  margin: 5%;
+}
+
+/* Posts Index */
+.post-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.content-box {
+  padding: 3%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgba(90, 3, 3, 0.2);
+  margin: 20px auto;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.pagination-container {
+  text-align: center;
+  margin: 2%;
+}
+
+/* Posts Show */
+.post-header {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+/* Create new Post */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-content: center;
+  margin-left: 5%;
+}
+
+.form-title {
+  font-size: 1.2em;
+  padding-bottom: 2%;
+}
+
+.input {
+  margin-bottom: 2%;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.form-btn {
+  width: 50%;
+  align-self: center;
+}
+
+/* Create new Comment - Add a Like */
+.post-btn {
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.post-btn .btn {
+  margin: 3%;
+}
