@@ -43,3 +43,16 @@ a {
 .actions {
   margin-top: 1%;
 }
+
+.footer {
+  margin-left: 2%;
+}
+
+.footer h4 {
+  margin-bottom: 2%;
+}
+
+.footer-btn {
+  margin-top: 5%;
+  margin-left: 2%;
+}
